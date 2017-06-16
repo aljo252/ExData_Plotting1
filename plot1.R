@@ -5,7 +5,7 @@ data2<-cbind(data2, "DateTime" = as.POSIXct(paste(data2$Date, data2$Time)))
 
 png("plot1.png", width=400, height=400)
 
-hist(data$Global_active_power,
+hist(data2$Global_active_power,
      main="Global Active Power",
      xlab="Global Active Power (kilowatts)",
      ylab="Frequency",
