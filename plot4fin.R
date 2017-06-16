@@ -7,7 +7,7 @@ png("plot4.png", width=400, height=400)
 
 par(mfrow=c(2,2))
 # 1
-plot(data2$Time, data$Global_active_power,
+plot(data2$Time, data2$Global_active_power,
      type="l",
      xlab="",
      ylab="Global Active Power")
